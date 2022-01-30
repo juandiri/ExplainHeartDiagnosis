@@ -1,0 +1,244 @@
+ domain: Hungary 
+columns: 40, training samples: 206, testing samples: 87 
+
+
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1082: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+#################  start learning  ####################
+2022-01-30 15:03:22.244585: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-30 15:03:22.248367: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-01-30 15:03:22.248383: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-30 15:03:22.248397: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (juandiri-pc): /proc/driver/nvidia/version does not exist
+epoch 0, training accuracy: 0.247573, AUC: 0.490911
+epoch 0, testing accuracy: 0.298851, AUC: 0.488685 
+
+epoch 100, training accuracy: 0.669903, AUC: 0.665432
+epoch 100, testing accuracy: 0.563218, AUC: 0.576258 
+
+epoch 200, training accuracy: 0.626214, AUC: 0.633631
+epoch 200, testing accuracy: 0.540230, AUC: 0.602337 
+
+epoch 300, training accuracy: 0.679612, AUC: 0.669114
+epoch 300, testing accuracy: 0.620690, AUC: 0.635224 
+
+epoch 400, training accuracy: 0.771845, AUC: 0.712181
+epoch 400, testing accuracy: 0.655172, AUC: 0.592059 
+
+epoch 500, training accuracy: 0.800971, AUC: 0.744848
+epoch 500, testing accuracy: 0.701149, AUC: 0.640484 
+
+epoch 600, training accuracy: 0.849515, AUC: 0.799226
+epoch 600, testing accuracy: 0.724138, AUC: 0.659572 
+
+epoch 700, training accuracy: 0.878641, AUC: 0.821388
+epoch 700, testing accuracy: 0.793103, AUC: 0.740650 
+
+epoch 800, training accuracy: 0.902913, AUC: 0.872093
+epoch 800, testing accuracy: 0.816092, AUC: 0.768569 
+
+epoch 900, training accuracy: 0.927184, AUC: 0.901359
+epoch 900, testing accuracy: 0.839080, AUC: 0.789003 
+
+epoch 999, training accuracy: 0.932039, AUC: 0.921697
+epoch 999, testing accuracy: 0.793103, AUC: 0.767314 
+
+#################  end learning  ####################
+time spent: 27.166587591171265 seconds
+
+store testing results
+(.venvlrn) juandiri@juandiri-pc Project $ /home/juandiri/TFM/Project/src/Learn/.venvlrn/bin/python /home/juandiri/TFM/Project/src/Learn/CNN.py
+2022-01-30 15:03:58.048558: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-01-30 15:03:58.048578: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+
+
+ domain: Cleveland 
+columns: 40, training samples: 197, testing samples: 84 
+
+
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1082: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+#################  start learning  ####################
+2022-01-30 15:03:59.200608: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-30 15:03:59.200937: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-01-30 15:03:59.200950: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-30 15:03:59.200963: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (juandiri-pc): /proc/driver/nvidia/version does not exist
+epoch 0, training accuracy: 0.451777, AUC: 0.521387
+epoch 0, testing accuracy: 0.476190, AUC: 0.546008 
+
+epoch 100, training accuracy: 0.309645, AUC: 0.553790
+epoch 100, testing accuracy: 0.250000, AUC: 0.491958 
+
+epoch 200, training accuracy: 0.598985, AUC: 0.631675
+epoch 200, testing accuracy: 0.642857, AUC: 0.681768 
+
+epoch 300, training accuracy: 0.736041, AUC: 0.715109
+epoch 300, testing accuracy: 0.702381, AUC: 0.692949 
+
+epoch 400, training accuracy: 0.791878, AUC: 0.802630
+epoch 400, testing accuracy: 0.797619, AUC: 0.787431 
+
+epoch 500, training accuracy: 0.862944, AUC: 0.847575
+epoch 500, testing accuracy: 0.797619, AUC: 0.769315 
+
+epoch 600, training accuracy: 0.923858, AUC: 0.914730
+epoch 600, testing accuracy: 0.880952, AUC: 0.862619 
+
+epoch 700, training accuracy: 0.939086, AUC: 0.935614
+epoch 700, testing accuracy: 0.904762, AUC: 0.882163 
+
+epoch 800, training accuracy: 0.959391, AUC: 0.958077
+epoch 800, testing accuracy: 0.928571, AUC: 0.917304 
+
+epoch 900, training accuracy: 0.984772, AUC: 0.985500
+epoch 900, testing accuracy: 0.976190, AUC: 0.970541 
+
+epoch 999, training accuracy: 1.000000, AUC: 1.000000
+epoch 999, testing accuracy: 0.964286, AUC: 0.955811 
+
+#################  end learning  ####################
+time spent: 26.636709928512573 seconds
+
+store testing results
+(.venvlrn) juandiri@juandiri-pc Project $ /home/juandiri/TFM/Project/src/Learn/.venvlrn/bin/python /home/juandiri/TFM/Project/src/Learn/CNN.py
+2022-01-30 15:04:35.078598: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-01-30 15:04:35.078619: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+
+
+ domain: Switzerland 
+columns: 40, training samples: 86, testing samples: 36 
+
+
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1082: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+#################  start learning  ####################
+2022-01-30 15:04:36.109248: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-30 15:04:36.109648: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-01-30 15:04:36.109666: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-30 15:04:36.109680: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (juandiri-pc): /proc/driver/nvidia/version does not exist
+epoch 0, training accuracy: 0.325581, AUC: 0.463654
+epoch 0, testing accuracy: 0.361111, AUC: 0.521093 
+
+epoch 100, training accuracy: 0.511628, AUC: 0.517814
+epoch 100, testing accuracy: 0.527778, AUC: 0.538146 
+
+epoch 200, training accuracy: 0.546512, AUC: 0.620131
+epoch 200, testing accuracy: 0.666667, AUC: 0.683643 
+
+epoch 300, training accuracy: 0.627907, AUC: 0.581336
+epoch 300, testing accuracy: 0.472222, AUC: 0.499503 
+
+epoch 400, training accuracy: 0.674419, AUC: 0.631540
+epoch 400, testing accuracy: 0.583333, AUC: 0.580837 
+
+epoch 500, training accuracy: 0.686047, AUC: 0.665712
+epoch 500, testing accuracy: 0.555556, AUC: 0.576540 
+
+epoch 600, training accuracy: 0.744186, AUC: 0.698842
+epoch 600, testing accuracy: 0.694444, AUC: 0.647468 
+
+epoch 700, training accuracy: 0.813953, AUC: 0.794451
+epoch 700, testing accuracy: 0.638889, AUC: 0.631201 
+
+epoch 800, training accuracy: 0.802326, AUC: 0.707344
+epoch 800, testing accuracy: 0.666667, AUC: 0.643171 
+
+epoch 900, training accuracy: 0.965116, AUC: 0.900968
+epoch 900, testing accuracy: 0.833333, AUC: 0.765705 
+
+epoch 999, training accuracy: 0.976744, AUC: 0.945840
+epoch 999, testing accuracy: 0.833333, AUC: 0.765705 
+
+#################  end learning  ####################
+time spent: 12.502432107925415 seconds
+
+store testing results
+(.venvlrn) juandiri@juandiri-pc Project $ /home/juandiri/TFM/Project/src/Learn/.venvlrn/bin/python /home/juandiri/TFM/Project/src/Learn/CNN.py
+2022-01-30 15:04:59.767747: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-01-30 15:04:59.767776: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+
+
+ domain: LongBeach 
+columns: 40, training samples: 140, testing samples: 59 
+
+
+WARNING:tensorflow:From /home/juandiri/TFM/Project/src/Learn/.venvlrn/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1082: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+#################  start learning  ####################
+2022-01-30 15:05:00.790614: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-30 15:05:00.790957: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-01-30 15:05:00.790983: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-01-30 15:05:00.790997: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (juandiri-pc): /proc/driver/nvidia/version does not exist
+epoch 0, training accuracy: 0.421429, AUC: 0.513685
+epoch 0, testing accuracy: 0.372881, AUC: 0.475796 
+
+epoch 100, training accuracy: 0.400000, AUC: 0.509435
+epoch 100, testing accuracy: 0.474576, AUC: 0.587729 
+
+epoch 200, training accuracy: 0.528571, AUC: 0.643361
+epoch 200, testing accuracy: 0.423729, AUC: 0.588241 
+
+epoch 300, training accuracy: 0.771429, AUC: 0.813366
+epoch 300, testing accuracy: 0.762712, AUC: 0.822753 
+
+epoch 400, training accuracy: 0.914286, AUC: 0.919547
+epoch 400, testing accuracy: 0.813559, AUC: 0.855632 
+
+epoch 500, training accuracy: 0.921429, AUC: 0.924299
+epoch 500, testing accuracy: 0.864407, AUC: 0.892929 
+
+epoch 600, training accuracy: 0.978571, AUC: 0.980866
+epoch 600, testing accuracy: 0.966102, AUC: 0.974660 
+
+epoch 700, training accuracy: 0.985714, AUC: 0.986855
+epoch 700, testing accuracy: 0.966102, AUC: 0.974660 
+
+epoch 800, training accuracy: 1.000000, AUC: 1.000000
+epoch 800, testing accuracy: 1.000000, AUC: 1.000000 
+
+epoch 900, training accuracy: 0.992857, AUC: 0.993118
+epoch 900, testing accuracy: 1.000000, AUC: 1.000000 
+
+epoch 999, training accuracy: 1.000000, AUC: 1.000000
+epoch 999, testing accuracy: 1.000000, AUC: 1.000000 
+
+#################  end learning  ####################
+time spent: 22.74742317199707 seconds
+
+store testing results
